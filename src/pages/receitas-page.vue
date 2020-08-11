@@ -9,7 +9,7 @@
         <h5 class="font-weight-regular">Receba receitas no seu whatsapp</h5>
     </v-btn>
 
-    <v-img width="490" height="485" src="../../static/img/cozinharemcasa.png" class="img-box"></v-img>
+    <v-img width="490" height="485" src="https://alipiopereira.github.io/chef-bruno-mendonca/static/img/cozinharemcasa.png" class="img-box"></v-img>
   </div>
 </template>
 

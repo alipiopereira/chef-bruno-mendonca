@@ -12,7 +12,7 @@
       width="400"
       height="650"
       class="img-profile"
-      src="../../static/img/chef_profile_bruno_mendonca.png"
+      src="https://alipiopereira.github.io/chef-bruno-mendonca/static/img/chef_profile_bruno_mendonca.png"
     ></v-img>
 
     <v-row justify="start" class="box-bottom mb-5">

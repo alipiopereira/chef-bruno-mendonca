@@ -16,7 +16,7 @@
           <v-row justify="center" align="center">
             <v-col cols="6" class="text-right pa-1">
               <v-avatar size="60" style="border: 2px solid #eee;">
-                <v-img src="../static/img/avatar_bruno_mendonca.png" alt="Bruno Mendonça"></v-img>
+                <v-img src="https://alipiopereira.github.io/chef-bruno-mendonca/static/img/avatar_bruno_mendonca.png" alt="Bruno Mendonça"></v-img>
               </v-avatar>
             </v-col>
 

@@ -15,7 +15,7 @@
       </v-btn>
     </v-card>
 
-    <v-img width="690" height="715" src="../../static/img/premio-chef-mendonca.png" class="img-box"></v-img>
+    <v-img width="690" height="715" src="https://alipiopereira.github.io/chef-bruno-mendonca/static/img/premio-chef-mendonca.png" class="img-box"></v-img>
   </div>
 </template>
 

@@ -40,7 +40,7 @@
       </v-dialog>
     </v-row>
 
-    <v-img width="490" height="485" src="../../static/img/bg-wave-dicas.png" class="img-box"></v-img>
+    <v-img width="490" height="485" src="https://alipiopereira.github.io/chef-bruno-mendonca/static/img/bg-wave-dicas.png" class="img-box"></v-img>
   </div>
 </template>
 
@@ -56,9 +56,9 @@ export default {
   data: () => ({
     dialogDicas: null,
     images: [
-      "../../static/img/dicas-two.png",
-      "../../static/img/dicas-three.png",
-      "../../static/img/dicas-four.png",
+      "https://alipiopereira.github.io/chef-bruno-mendonca/static/img/dicas-two.png",
+      "https://alipiopereira.github.io/chef-bruno-mendonca/static/img/dicas-three.png",
+      "https://alipiopereira.github.io/chef-bruno-mendonca/static/img/dicas-four.png",
     ],
     imagePreview: "",
   }),
