@@ -1,12 +1,12 @@
 <template>
   <div id="app">
     <v-app>
-      <appbar-component />
+      <Appbar />
       <v-main>
         <v-container fluid>
           <v-row justify="center">
             <v-col>
-              <router-view></router-view>
+              <Hello />
             </v-col>
           </v-row>
         </v-container>
@@ -16,13 +16,14 @@
 </template>
 
 <script>
-import appBarComponent from './components/appbar-component'
+import Appbar from "./components/Appbar";
+import Hello from "./views/Hello";
 export default {
   components: {
-    'appbar-component': appBarComponent
+    Appbar,
+    Hello,
   },
-  data: () => ({
-  }),
+  data: () => ({}),
 
   mounted() {
     //remove border navigation drawer
@@ -54,8 +55,8 @@ body {
 }
 
 .shadow {
-  box-shadow: 0px 5px 6px -3px rgba(0,0,0,0.2);
-  box-shadow: 0px 3px 16px 2px rgba(0,0,0,0.12);
-  box-shadow: 0px 9px 12px 1px rgba(0,0,0,0.14);
+  box-shadow: 0px 5px 6px -3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 3px 16px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 9px 12px 1px rgba(0, 0, 0, 0.14);
 }
 </style>

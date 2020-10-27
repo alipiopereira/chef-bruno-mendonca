@@ -1,5 +1,5 @@
 <template>
-  <div class="appbar-component">
+  <div>
     <v-navigation-drawer
       app
       fixed
@@ -16,7 +16,7 @@
           <v-row justify="center" align="center">
             <v-col cols="6" class="text-right pa-1">
               <v-avatar size="60" style="border: 2px solid #eee;">
-                <v-img src="https://alipiopereira.github.io/chef-bruno-mendonca/static/img/avatar_bruno_mendonca.png" alt="Bruno Mendonça"></v-img>
+                <v-img src="https://scontent.fthe8-1.fna.fbcdn.net/v/t1.0-9/s960x960/56242739_790826761294316_6470574621782441984_o.jpg?_nc_cat=101&ccb=2&_nc_sid=110474&_nc_ohc=rx407KxxqeAAX-zkej1&_nc_ht=scontent.fthe8-1.fna&tp=7&oh=7b2419babf2b4881edf4bcbb745aa88c&oe=5FBCD715" alt="Bruno Mendonça"></v-img>
               </v-avatar>
             </v-col>
 
@@ -129,7 +129,7 @@
                 <v-row justify="center" align="center">
                   <v-col cols="6" class="text-right pa-1">
                     <v-avatar size="60" style="border: 2px solid #eee;">
-                      <v-img src="../static/img/avatar_bruno_mendonca.png" alt="Bruno Mendonça"></v-img>
+                      <v-img src="https://scontent.fthe8-1.fna.fbcdn.net/v/t1.0-9/s960x960/56242739_790826761294316_6470574621782441984_o.jpg?_nc_cat=101&ccb=2&_nc_sid=110474&_nc_ohc=rx407KxxqeAAX-zkej1&_nc_ht=scontent.fthe8-1.fna&tp=7&oh=7b2419babf2b4881edf4bcbb745aa88c&oe=5FBCD715" alt="Bruno Mendonça"></v-img>
                     </v-avatar>
                   </v-col>
 
@@ -259,28 +259,8 @@
 </template>
 
 <script>
-import arrowLeftIcon from "../components/icons/arrow-left-icon";
-import menuIcon from "../components/icons/menu-icon";
-import userIcon from "../components/icons/user-icon";
-import checkIcon from "../components/icons/check-icon";
-import listIcon from "../components/icons/list-icon";
-import chatIcon from "../components/icons/chat-icon";
-import playIcon from "../components/icons/play-icon";
-import closeIcon from "../components/icons/close-icon";
-import modalSendMessage from "./ModalSendMessage";
 export default {
-  name: "appbar-component",
-  components: {
-    "arrow-left-icon": arrowLeftIcon,
-    "menu-icon": menuIcon,
-    "user-icon": userIcon,
-    "check-icon": checkIcon,
-    "list-icon": listIcon,
-    "chat-icon": chatIcon,
-    "play-icon": playIcon,
-    "close-icon": closeIcon,
-    "modal-send-message": modalSendMessage,
-  },
+  name: "Appbar",
   data: () => ({
     drawer: null,
     dialog: null,

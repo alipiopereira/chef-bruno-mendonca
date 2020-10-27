@@ -1,5 +1,5 @@
 <template>
-  <div class="profile-page pl-8">
+  <div class="pl-8">
     <profile-wave />
 
     <h3>Cozinhe</h3>
@@ -12,7 +12,7 @@
       width="400"
       height="650"
       class="img-profile"
-      src="https://alipiopereira.github.io/chef-bruno-mendonca/static/img/chef_profile_bruno_mendonca.png"
+      src="https://scontent.fthe8-1.fna.fbcdn.net/v/t1.0-9/s960x960/56242739_790826761294316_6470574621782441984_o.jpg?_nc_cat=101&ccb=2&_nc_sid=110474&_nc_ohc=rx407KxxqeAAX-zkej1&_nc_ht=scontent.fthe8-1.fna&tp=7&oh=7b2419babf2b4881edf4bcbb745aa88c&oe=5FBCD715"
     ></v-img>
 
     <v-row justify="start" class="box-bottom mb-5">
@@ -35,7 +35,7 @@
 <script>
 import profileWave from "../components/waves/profile-wave";
 export default {
-  name: "profile-page",
+  name: "init",
   components: {
     "profile-wave": profileWave,
   },
@@ -56,35 +56,29 @@ export default {
 .font-big {
   font-size: 32pt;
 }
-
 .box-copy {
   position: relative;
   width: 250px;
 }
-
 .box-bottom {
   position: absolute;
   bottom: 0;
 }
-
 .img-profile {
   position: absolute;
   bottom: 0;
   right: 0;
 }
-
 @media (max-width: 600px) {
   .img-profile {
     right: -90px;
   }
 }
-
 @media (max-width: 450px) {
   .img-profile {
     width: 300px !important;
     height: 450px !important;
   }
-
   .item {
     width: 100px !important;
     height: 160px !important;
